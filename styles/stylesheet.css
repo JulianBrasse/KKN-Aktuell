@@ -9,53 +9,53 @@ src: url(styles/extralight.woff2);
 }
 
 * {
-padding:0px;
-margin:0px;
+padding:2vw;
+margin:0vw;
 font-family:Light;
 }
 
 header {
 background-color:rgb(0,200,200);
 color:rgb(255,255,255);
-padding:20px;
 }
 
 footer {
-background-color:rgb(150,150,150);
-padding:20px;
-border-radius:0px 0px 20px 20px;
+background-color:rgb(0,0,0);
 }
 
 h1 {
 font-family:Bold;
-font-size:50px;
+font-size:10vh;
 }
 
 h2 {
-font-size:50px;
+font-size:10vh;
 }
 
 h3 {
 font-family:Bold;
-font-size:20px;
+font-size:7.5vh;
 margin-bottom:5px;
 }
 
 p {
-font-size:15px;
+font-size:7.5vh;
 }
 
 hr {
 background-color:rgb(150,150,150);
-height:1px;
-border-width:0px;
+height:1vh;
+border-width:0vh;
+}
+
+img {
+width:10vh;
 }
 
 .button {
 font-family:Bold;
 background-color:rgb(0,200,200);
-padding:20px;
-margin-top:20px;
+padding:2vw;
 text-decoration:none;
 display: inline-block;
 color:rgb(255,255,255);
