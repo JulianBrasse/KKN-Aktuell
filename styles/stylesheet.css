@@ -22,9 +22,16 @@ main {
 padding:20px;
 }
 
+article {
+padding:20px;
+border-style:solid;
+border-width:1px;
+border-color:rgb(150,150,150);
+}
+
 article:hover {
 background-color:rgb(200,200,200);
-padding:20px;
+border-color:rgb(200,200,200);
 }
 
 header {
@@ -54,12 +61,6 @@ font-size:20px;
 
 p {
 font-size:15px;
-}
-
-hr {
-background-color:rgb(150,150,150);
-height:1px;
-border-width:0px;
 }
 
 img {
