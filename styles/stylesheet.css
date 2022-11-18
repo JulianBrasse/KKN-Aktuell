@@ -1,11 +1,11 @@
 @font-face {
 font-family:Bold;
-src: url(styles/semibold.woff2);
+src: url(semibold.woff2);
 }
 
 @font-face {
 font-family:Light;
-src: url(styles/extralight.woff2);
+src: url(extralight.woff2);
 }
 
 * {
