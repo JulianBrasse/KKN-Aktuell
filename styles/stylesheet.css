@@ -13,6 +13,7 @@ padding:0px;
 margin:0px;
 font-family:Light;
 font-size:15px;
+text-decoration:none;
 }
 
 main {
@@ -54,7 +55,7 @@ h5 {
 font-size:20px;
 }
 
-article > h1,h2,h3,h4,h5,p {
+article > h1, article > h2, article > h3, article > h4, article > h5, article > p {
 margin-bottom:20px;
 }
 
@@ -70,7 +71,6 @@ text-decoration:none;
 display: inline-block;
 color:rgb(255,255,255);
 }
-
 .logo {
 padding:0px;
 width:20%;
