@@ -13,12 +13,14 @@ padding:0px;
 margin:0px;
 font-family:Light;
 font-size:15px;
+color:rgb(0,0,0);
 text-decoration:none;
 }
 
 main {
 padding:20px;
 vertical-align:middle;
+width:50%;
 }
 
 header {
