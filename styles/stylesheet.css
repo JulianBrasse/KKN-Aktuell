@@ -27,9 +27,6 @@
 main {
 	padding:20px;
 	width:50%;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
 }
 header {
 	padding:20px;
