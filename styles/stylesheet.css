@@ -83,7 +83,7 @@ input {
 input:focus-visible {
 	border-style:solid;
 	border-width:1px;
-	border-color:rgb(200,200,200);
+	border-color:rgb(0,0,0);
 	border-radius:0px;
 }
 img {
