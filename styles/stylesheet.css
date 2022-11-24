@@ -74,6 +74,18 @@ legend {
 label {
 	font-family:Bold;
 }
+input {
+	padding: 10px;
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(200,200,200);
+}
+input:focus-visible {
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(200,200,200);
+	border-radius:0px;
+}
 img {
 	width:100%;
 }
