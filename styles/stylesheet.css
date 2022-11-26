@@ -81,7 +81,9 @@ img {
 .logo {
 	padding:0px;
 	margin:auto;
-	height:10%;
+	width:20%;
+	max-width:800px;
+	min-width: 400px;
 }
 .white {
 	color:rgb(255,255,255);
