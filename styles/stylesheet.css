@@ -82,8 +82,8 @@ img {
 	padding:0px;
 	margin:auto;
 	width:20%;
-	max-width:800px;
-	min-width: 400px;
+	max-width:500px;
+	min-width: 150px;
 }
 .white {
 	color:rgb(255,255,255);
