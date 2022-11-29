@@ -1,129 +1,46 @@
-* {
-	padding:0px;
-	margin:0px;
-	font-family:Light;
-	font-size:15px;
-	color:rgb(0 0 0);
-	border: none;
-	outline:none;
-}
-body {
-	background-color:rgb(250 250 250);
-}
-header {
-	padding:20px;
-	background-color:rgb(0 200 200);
-}
-main {
-	padding:20px;
-	width:50%;
-	margin:auto;
-}
-article.button {
-	margin-top:20px;
-	padding:20px 20px 0px 20px;
-	background-color:unset;
-	border-style:solid;
-	border-width:1px;
-	border-color:rgb(200 200 200);
-}
-footer {
-	padding:20px;
-	background-color:rgb(0 0 0);
-	display:flex;
-	justify-content:center;
-}
-h1,h2,h3,h4,h5,h6 {
-	font-family:Bold;
-}
-h1 {
-	font-size:40px;
-}
-h2 {
-	font-size:35px;
-}
-h3 {
-	font-size:30px;
-}
-h4 {
-	font-size:25px;
-}
-h5 {
-	font-size:20px;
-}
-:is(form,article) > :is(p,h1,h2,h3,h4) {
-	margin-bottom:20px;
-}
-form {
-	padding:20px;
-	border-style:solid;
-	border-width:1px;
-	border-color:rgb(200 200 200);
-}
-fieldset {
-	display:flex;
-}
-input {
-	padding: 10px;
-	margin-right:20px;
-	flex:1;
-	font-family:Bold;
-	color:rgb(0 0 0);
-	background-color:rgb(250 250 250);
-	border-style:solid;
-	border-width:1px;
-	border-color:rgb(200 200 200);
-}
-input.button {
-	flex:0;
-	margin:unset;
-}
-input:focus-visible {
-	border-style:solid;
-	border-width:1px;
-	border-radius:0px;
-	color:rgb(0 0 0);
-	background-color: rgb(200 200 200);
-}
-::placeholder {
-	color: rgb(0 0 0);
-	opacity: 1;
-}
-img {
-	width:100%;
-}
-footer > p {
-	color:rgb(255 255 255);
-}
-.logo {
-	margin:auto;
-	width:20%;
-	max-width:500px;
-	min-width: 150px;
-	display: flex;
-	justify-content: center;
-}
-.button {
-	padding:10px;
-	background-color:rgb(0 200 200);
-	border-style:none;
-}
-.button:hover {
-	background-color:rgb(200 200 200);
-}
-.fa-brands {
-	color:rgb(255 255 255)
-}
-@media screen and (max-width: 800px) {
-	main {
-		width:auto;
-	}
-}
-@font-face {
-	font-family:Bold;
-	src: url(semibold.woff2);
-}
-@font-face {
-	font-family:Light;
-	src: url(extralight.woff2);
-}
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>KKN Aktuell</title>
+		<link rel="icon" href="/content/logo/favicon.svg">
+		<link rel="stylesheet" href="/styles/stylesheet.css">
+		<meta property="og:title" content="KKN Aktuell">
+		<meta property="og:description" content="Die Schüler:innenzeitung der Kantonsschule Küsnacht">
+		<meta property="og:image" content="https://kknaktuell.ch/content/social_preview.jpg">
+		<meta name="description" content="Eine ausschliesslich digitale Schülerzeitung der Kantonsschule Küsnacht. Immer relevant und hilfreich.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header>
+			<a href="/"><img src="/content/logo/wordmark_white.svg" alt="KKN Aktuell Logo" class="logo"></a>
+		</header>
+		<main>
+			<form action="https://web.swissnewsletter.ch/e/da8b5476413b219f/form/de/anmeldung.html" method="post" autocomplete="on">
+				<h4>Anmeldung Newsletter</h4>		
+    			<fieldset>
+					<input type="email" placeholder="Email" id="email_input_1" name="data[contact][email]" required="required">
+					<input type="text" placeholder="Vorname" id="firstname_input_1" name="data[contact][firstname]" required="required">
+					<input class="button" type="submit" value="Anmelden">
+				</fieldset>
+			</form>
+			<article class="button">
+				<h4>Diese Seite wird noch bearbeitet!</h4>
+				<p>Wir sind KKN Aktuell, eine Schüler:innenzeitung für die Kantonsschule Küsnacht. Unser Ziel ist, jeden Monat interessante und relevante Artikel und Information zu publizieren. Wir sind ausschliesslich online verfügbar und verteilen unsere Artikel per Newsletter, Website und Social Media direkt an dich. Da wir unsere Zeitung nicht drucken lassen, sind wir unabhängig und werden nicht von der Schule beeinflusst, und können transparent über die Schule informieren. Leider ist momentan unsere Website noch nicht vollständig verfügbar, aber wir arbeiten dran. Falls du bald unsere monatliche Newsletter bekommen willst, melde dich jetzt an!</p>
+				<img src="content/under_construction.jpg" alt="Code auf einem Computer.">
+				<p>Code auf einem Computer - TBH Creative</p>
+			</article>
+		</main>
+			<div class="overlay">
+				<div class="popup">
+					<h4>Follow us on Instagram</h4>
+				</div>
+			</div>
+		<footer>
+			<p class="white">© KKN Aktuell 2022</p>
+			<a href="//instagram.com/kknaktuell">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+		</footer>
+	</body>
+</html>
