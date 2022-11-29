@@ -1,32 +1,35 @@
-@font-face {
-	font-family:Bold;
-	src: url(semibold.woff2);
-}
-@font-face {
-	font-family:Light;
-	src: url(extralight.woff2);
-}
 * {
 	padding:0px;
 	margin:0px;
 	font-family:Light;
 	font-size:15px;
-	color:rgb(0,0,0);
-	text-decoration:none;
+	color:rgb(0 0 0);
+	border: none;
+	outline:none;
+}
+body {
+	background-color:rgb(250 250 250);
+}
+header {
+	padding:20px;
+	background-color:rgb(0 200 200);
 }
 main {
 	padding:20px;
 	width:50%;
 	margin:auto;
-	background-color:rgb(250,250,250);
 }
-header {
-	padding:20px;
-	background-color:rgb(0,200,200);
+article.button {
+	margin-top:20px;
+	padding:20px 20px 0px 20px;
+	background-color:unset;
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(200 200 200);
 }
 footer {
 	padding:20px;
-	background-color:rgb(0,0,0);
+	background-color:rgb(0 0 0);
 	display:flex;
 	justify-content:center;
 }
@@ -48,40 +51,51 @@ h4 {
 h5 {
 	font-size:20px;
 }
-article > h1, article > h2, article > h3, article > h4, article > h5, article > p {
+:is(form,article) > :is(p,h1,h2,h3,h4) {
 	margin-bottom:20px;
 }
-fieldset, aside {
+form {
 	padding:20px;
 	border-style:solid;
 	border-width:1px;
-	border-color:rgb(200,200,200);
+	border-color:rgb(200 200 200);
 }
-legend {
-	padding-left:10px;
-	padding-right:10px;
-	font-family:Bold;
-	font-size:25px;
+fieldset {
+	display:flex;
 }
 input {
 	padding: 10px;
+	margin-right:20px;
+	flex:1;
 	font-family:Bold;
+	color:rgb(0 0 0);
+	background-color:rgb(250 250 250);
 	border-style:solid;
 	border-width:1px;
-	border-color:rgb(200,200,200);
+	border-color:rgb(200 200 200);
+}
+input.button {
+	flex:0;
+	margin:unset;
 }
 input:focus-visible {
-	outline:none;
 	border-style:solid;
 	border-width:1px;
 	border-radius:0px;
-	background-color: rgb(200,200,200);
+	color:rgb(0 0 0);
+	background-color: rgb(200 200 200);
+}
+::placeholder {
+	color: rgb(0 0 0);
+	opacity: 1;
 }
 img {
 	width:100%;
 }
-header > img {
-	padding:0px;
+footer > p {
+	color:rgb(255 255 255);
+}
+.logo {
 	margin:auto;
 	width:20%;
 	max-width:500px;
@@ -89,34 +103,27 @@ header > img {
 	display: flex;
 	justify-content: center;
 }
-footer > p {
-	color:rgb(255,255,255);
-}
-.form {
-	float:left;
-	margin-right:20px;
-}
 .button {
-	padding:20px;
-	background-color:rgb(0,200,200);
+	padding:10px;
+	background-color:rgb(0 200 200);
 	border-style:none;
 }
 .button:hover {
-	background-color:rgb(200,200,200);
+	background-color:rgb(200 200 200);
 }
 .fa-brands {
-	color:rgb(250,250,250)
-}
-article.button, aside {
-	margin-top:20px;
-	padding:20px 20px 0px 20px;
-	background-color:unset;
-	border-style:solid;
-	border-width:1px;
-	border-color:rgb(200,200,200);
+	color:rgb(255 255 255)
 }
 @media screen and (max-width: 800px) {
 	main {
 		width:auto;
 	}
+}
+@font-face {
+	font-family:Bold;
+	src: url(semibold.woff2);
+}
+@font-face {
+	font-family:Light;
+	src: url(extralight.woff2);
 }
