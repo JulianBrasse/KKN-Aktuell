@@ -140,6 +140,15 @@ footer p {
 		width:auto;
 	}
 }
+@media screen and (max-width: 1270px) {
+	fieldset {
+		flex-direction:column;
+	}
+	input {
+		margin-right:unset;
+		margin-bottom:20px;
+	}
+}
 @font-face {
 	font-family:Bold;
 	src: url(semibold.woff2);
