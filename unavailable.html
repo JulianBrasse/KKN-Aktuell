@@ -1,88 +1,38 @@
-<html><head>
-		<title>Page Unavailable</title>
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>KKN Aktuell</title>
+		<link rel="icon" href="/content/logo/favicon.svg">
+		<link rel="stylesheet" href="/styles/stylesheet.css">
+		<meta property="og:title" content="KKN Aktuell">
+		<meta property="og:description" content="Die Schüler:innenzeitung der Kantonsschule Küsnacht">
+		<meta property="og:image" content="https://kknaktuell.ch/content/social_preview.jpg">
+		<meta name="description" content="Eine ausschliesslich digitale Schülerzeitung der Kantonsschule Küsnacht. Immer relevant und hilfreich.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="styles\styles.css">
-		<style>
-			@font-face {
-			font-family:Bold;
-			src: url(styles/semibold.woff2);
-			}
-			
-			@font-face {
-			font-family:Light;
-			src: url(styles/extralight.woff2);
-			}
-			
-			* {
-			padding:0px;
-			margin:0px;
-			font-weight:normal;
-			text-align: -webkit-center;
-			}
-			
-			body {
-			background-color:rgb(200,200,200);
-			padding:20px;
-			}
-			
-			main {
-			width:600px;
-			background-color:rgb(255,255,255);
-			border-radius: 20px;
-			}
-			
-			header {
-			background-color:rgb(0,200,200);
-			color:rgb(255,255,255);
-			border-radius:20px 20px 0px 0px;
-			}
-			
-			article {
-			padding:20px;
-			}
-
-			h1 {
-			font-family:Bold;
-			font-size:50px;
-			}
-			
-			h2 {
-			font-family:Light;
-			font-size:50px;
-			}
-			
-			h3 {
-			font-family:Bold;
-			font-size:20px;
-			margin-bottom:5px;
-			}
-			
-			p {
-			font-family:Light;
-			font-size:15px;
-			}
-			
-			img {
-			width:560px;
-			padding:20px;
-			}
-		</style>
 	</head>
-
 	<body>
-
+		<header>
+			<a href="/"><img src="/content/logo/wordmark_white.svg" alt="KKN Aktuell Logo" class="logo"></a>
+		</header>
 		<main>
-			<header>
-				<h1>KKN&nbsp;&nbsp;&nbsp;&nbsp;</h1>
-				<h2>&nbsp;&nbsp;&nbsp;&nbsp;Aktuell</h2>
-			</header>
-			
-			<article>
-				<h3>This is not available yet.</h3>
-				<p>Sorry for the inconvenience.</p>
+			<form action="https://web.swissnewsletter.ch/e/da8b5476413b219f/form/de/anmeldung.html" method="post" autocomplete="on">
+				<h4>Anmeldung Newsletter</h4>		
+    			<fieldset>
+					<input type="email" placeholder="Email" id="email_input_1" name="data[contact][email]" required="required">
+					<input type="text" placeholder="Vorname" id="firstname_input_1" name="data[contact][firstname]" required="required">
+					<input class="button" type="submit" value="Anmelden">
+				</fieldset>
+			</form>
+			<article class="button">
+				<h4>Diese Seite gibt es nicht!</h4>
 			</article>
-
 		</main>
-
-	
-</body></html>
+		<footer>
+			<p class="white">© KKN Aktuell 2022</p>
+			<a href="//instagram.com/kknaktuell">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+		</footer>
+	</body>
+</html>
