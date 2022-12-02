@@ -1,7 +1,7 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	font-family: Light;
+	font-family: Light, Monospace;
 	font-size: 15px;
 	color: rgb(0 0 0);
 	border: none;
@@ -38,8 +38,8 @@ i {
 	margin: 0px 5px 0px 5px;
 	font-size: 25px;
 }
-h1,h2,h3,h4,h5,h6 {
-	font-family: Bold;
+h1,h2,h3,h4,h5,h6,input {
+	font-family: Bold, Monospace;
 }
 h1 {
 	font-size: 40px;
@@ -72,7 +72,6 @@ input {
 	padding: 10px;
 	margin-right: 20px;
 	flex: 1;
-	font-family: Bold;
 	color: rgb(0 0 0);
 	background-color: rgb(250 250 250);
 	border-style: solid;
