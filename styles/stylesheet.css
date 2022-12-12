@@ -115,6 +115,9 @@ footer p {
 .button:hover {
 	background-color: rgb(200 200 200);
 }
+.icon {
+	height: 50px;
+}
 .overlay {
 	position: fixed;
 	display: none;
