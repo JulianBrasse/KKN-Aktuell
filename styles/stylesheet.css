@@ -118,6 +118,11 @@ footer p {
 .icon {
 	height: 50px;
 }
+
+.socials {
+	display: flex;
+}
+
 .overlay {
 	position: fixed;
 	display: none;
